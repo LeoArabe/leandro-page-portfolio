@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Velha Suprema</title>
+</head>
+
+<body>
+    <input type="text" id="playerName" placeholder="Digite seu nome">
+    <button class="joinGame" data-joingame-button>
+        Entrar no Jogo
+    </button>
+    <script>
+        function joinGame() {
+            const name = document.getElementById('playerName').value;
+            if (name) {
+                fetch('http://www.velhasuprema.kinghost.net:21128/joinGame', { // Substitua pela URL correta da sua API
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ name: name }),
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log('Sucesso:', data);
+                        window.location.href = 'http://www.velhasuprema.kinghost.net:21128'; // Redireciona após o sucesso
+                    })
+                    .catch((error) => {
+                        console.error('Erro:', error);
+                    });
+            } else {
+                alert('Por favor, digite um nome para entrar no jogo.');
+            }
+        }
+        const joinGameButton = document.querySelector('.joinGame');
+        joinGameButton.addEventListener("click", joinGame);
+
+    </script>
+</body>
+
+</html>
