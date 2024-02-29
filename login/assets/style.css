@@ -5,18 +5,16 @@ body, html {
 }
 
 .container {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     flex-direction: column;
-    place-items: center;
+    min-height: 100vh;
 }
 
 #player_name {
     margin-bottom: 7px;
-    text-align-last: center;
+    text-align: center;
 }
 
 .join_game {
