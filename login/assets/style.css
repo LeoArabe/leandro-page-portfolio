@@ -5,6 +5,7 @@ body, html {
 }
 
 .container {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,11 +14,11 @@ body, html {
     place-items: center;
 }
 
-#playername {
+#player_name {
     margin-bottom: 7px;
     text-align-last: center;
 }
 
-.joinGame {
+.join_game {
     font-size: x-large;
 }

@@ -10,14 +10,14 @@
 
 <body>
     <div class="container">
-        <input type="text" id="playerName" placeholder="Digite seu nome">
-        <button class="joinGame" data-joingame-button>
+        <input type="text" id="player_name" placeholder="Digite seu nome">
+        <button class="join_game" data-joingame-button>
             Entrar no Jogo
         </button>
     </div>
     <script>
         function joinGame() {
-            const name = document.getElementById('playerName').value;
+            const name = document.getElementById('player_name').value;
             if (name) {
                 fetch('http://www.velhasuprema.kinghost.net:21128/joinGame', { // Substitua pela URL correta da sua API
                     method: 'POST',
@@ -38,7 +38,7 @@
                 alert('Por favor, digite um nome para entrar no jogo.');
             }
         }
-        const joinGameButton = document.querySelector('.joinGame');
+        const joinGameButton = document.querySelector('.join_game');
         joinGameButton.addEventListener("click", joinGame);
 
     </script>
