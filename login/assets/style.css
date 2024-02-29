@@ -5,16 +5,17 @@ body, html {
 }
 
 .container {
-    text-align-last: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     flex-direction: column;
+    place-items: center;
 }
 
 #playername {
     margin-bottom: 7px;
+    text-align-last: center;
 }
 
 .joinGame {
