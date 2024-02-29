@@ -13,10 +13,10 @@ body, html {
 }
 
 .container-banner {
-    background: url('../imgs/jogo_da_velha_banner.png') no-repeat center center;
-    background-size: cover; /* Isso garante que a imagem cubra toda a área disponível */
+    background: url('../imgs/jogo_da_velha_banner_dark.png') no-repeat center center;
+    background-size: contain; /* Isso garante que a imagem cubra toda a área disponível */
     min-height: 300px; /* Defina uma altura mínima para garantir que a imagem apareça */
-    min-width: 100vh;
+    min-width: 100%;
 }
 
 .container-form {
