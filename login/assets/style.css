@@ -14,11 +14,6 @@ body, html {
 
 .container-banner {
     background: url('../imgs/jogo_da_velha_banner.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 .container-form {
@@ -26,7 +21,6 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 #player_name {
