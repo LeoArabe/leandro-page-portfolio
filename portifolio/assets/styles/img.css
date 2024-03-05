@@ -29,20 +29,29 @@ img {
 
 @media only screen and (max-width: 800px) {
     #top-home #logo-top {
-        width:95%;
+        width: 95%;
         position: relative;
         max-width: 95%
     }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
     #top-home #logo-top img {
-    width: 100%;
-}
+        width: 100%;
+    }
 }
 
-@media only screen and (min-width: 801px){
+@media only screen and (min-width: 801px) {
     #top-home #logo-top img {
-    width: calc(30em + 30%);
+        width: calc(30em + 30%);
+    }
 }
+
+@media only screen and (max-width: 800px) {
+    .img-bg-topo {
+        position: absolute;
+        background-size: cover;
+        width: 99.8%;
+        height: 70%;
+    }
 }
