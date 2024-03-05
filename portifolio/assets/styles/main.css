@@ -3542,7 +3542,7 @@ header.fixa #logo-menu {
 
 @media only screen and (max-width: 800px) {
         #loja #list-prods {
-                with: 100%;
+                width: 100%;
                 margin-top: 70px;
                 -webkit-flex-flow: column;
                 -moz-flex-flow: column;
