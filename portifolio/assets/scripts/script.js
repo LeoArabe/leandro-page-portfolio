@@ -1,5 +1,5 @@
 // Seleciona todos os elementos com a classe 'item-list'
-const elementList = document.querySelectorAll('.item-list');
+const elementList = document.querySelectorAll('.item-menu');
 
 // Função para remover a classe 'active' de todos os elementos
 const removeBoardHoverClass = () => {
@@ -7,7 +7,7 @@ const removeBoardHoverClass = () => {
 };
 
 // Função para adicionar a classe 'active' ao elemento que disparou o evento
-const setHoverClass = (e) => {
+const redirectPage  = (e) => {
     elementList.forEach(element => {
         element.classList.remove('active');
     });
@@ -17,5 +17,5 @@ const setHoverClass = (e) => {
 
 // Adiciona os event listeners de mouseenter e mouseleave a cada elemento
 elementList.forEach(element => {
-    element.addEventListener('mouseenter', setHoverClass);
+    element.addEventListener('onClick', redirectPage );
 });
