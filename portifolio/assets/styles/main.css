@@ -402,3 +402,40 @@ header .menu-icon {
         font-style: normal;
         font-weight: normal
 }
+
+#self-img {
+        position: fixed;
+        right: 0; 
+        bottom: 0;
+        height: 50%;
+    }
+    
+    .img-bg-top {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: contain;
+        z-index: 1;
+        background-repeat: no-repeat;
+    }
+    
+    #top-home #logo-top {
+        z-index: 3;
+    }
+    
+    figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+    }
+    
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
