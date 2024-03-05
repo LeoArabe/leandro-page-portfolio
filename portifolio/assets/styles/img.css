@@ -17,3 +17,7 @@
     z-index: 1;
     background-repeat: no-repeat;
 }
+
+#top-home #logo-top {
+    z-index: 3;
+}
