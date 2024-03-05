@@ -98,3 +98,15 @@ header #menu-top {
         align-items: flex-end;
         z-index: 2
 }
+
+header .menu-icon {
+        display: none;
+        position: relative;
+        width: 20px;
+        height: 21px;
+        cursor: pointer;
+        -webkit-flex: 0 0 20px;
+        flex: 0 0 20px;
+        color: #262530;
+        display: none;
+    }
