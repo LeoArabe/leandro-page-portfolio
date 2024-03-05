@@ -1945,7 +1945,7 @@ body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='
     }
     
     #menu-top .item-menu:hover {
-        color: #FF4E00
+        color: #0c4f02
     }
     
     #top-home {
@@ -2014,7 +2014,7 @@ body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='
         display: block;
         top: 0;
         left: 0;
-        background-position: center;
+        background-position: bottom;
         background-size: contain;
         z-index: 1;
         background-repeat: no-repeat
