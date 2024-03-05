@@ -1,21 +1,66 @@
-main {
-        display: flex;
-        height: 80%;
+header {
         width: 100%;
-        margin-left: 20px;
+        float: left;
+        position: absolute;
+        height: 77px;
+        z-index: 10;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        background: white;
 }
 
-#sobre {
-        font-size: 20px;
-        font-family: cursive;
-        font-style: italic;
-        color: rgb(0, 0, 0);
-        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);    
-        padding: 7% 7% 0px 7%;
+#menu-top .item-menu {
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+        margin: 0 10px;
+        position: relative;
+        font-family: "light", sans-serif;
+        color: #B1B1B1;
+        font-size: 18px;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
 }
 
-#pasta {
-        height: 100%;
-        background: url('../images/pasta.png') no-repeat left top;
-        background-size: contain;
+
+#menu-top .item-menu:hover {
+        color: #FF4E00
+}
+
+#top-home {
+        width: 100%;
+        position: relative;
+        height: 100vh;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: flex-end;
+        -webkit-box-align: flex-end;
+        -ms-flex-align: flex-end;
+        align-items: flex-end;
+        z-index: 2
 }
