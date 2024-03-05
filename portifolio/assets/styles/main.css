@@ -336,7 +336,6 @@ header {
         display: -o-flex;
         display: flex;
         -ms-flex-pack: center;
-        justify-content: right;
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -2213,16 +2212,16 @@ header.fixa #logo-menu {
 }
 
 .img-bg-topo {
-        position: relative;
-        width: 160em;
-        height: -webkit-fill-available;
-        top: 0;
-        left: 0;
+        position: absolute;
+        width: calc(35em + 15%);
+        height: 90%;
+        right: 0;
         background-position: bottom;
         background-size: contain;
         z-index: 1;
         background-repeat: no-repeat;
-}
+        display: block;
+    }
 
 @media only screen and (max-width: 800px) {
         .img-bg-topo {
