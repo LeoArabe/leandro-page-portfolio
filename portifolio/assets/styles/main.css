@@ -1950,16 +1950,15 @@ body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='
     }
     
     .img-bg-topo {
-        position: absolute;
-        width: 50em;
-        height: 100%;
-        display: block;
+        position: relative;
+        width: 160em;
+        height: -webkit-fill-available;
         top: 0;
         left: 0;
         background-position: bottom;
         background-size: contain;
         z-index: 1;
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
     }
     
     @media only screen and (max-width: 800px) {
