@@ -239,7 +239,7 @@ header {
         flex: 0 0 82%;
         max-width: 1590px;
         height: calc(100vh - 80px);
-        background-image: url(../images/bg-laranja.png);
+        background-image: url(../images/fundo.png);
         background-repeat: repeat;
         display: -webkit-flex;
         display: -moz-flex;
