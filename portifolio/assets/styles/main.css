@@ -248,7 +248,7 @@ header {
         flex: 0 0 82%;
         max-width: 1590px;
         height: calc(100vh - 80px);
-        background-image: url(../images/fundo.png);
+        background-image: url(../images/background-top.png);
         background-repeat: repeat;
         display: -webkit-flex;
         display: -moz-flex;
@@ -256,13 +256,13 @@ header {
         display: -o-flex;
         display: flex;
         -ms-flex-pack: center;
-        justify-content: center;
+        justify-content: right;
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         position: relative;
-}
+    }
 
 #menu-top .item-menu {
         -webkit-flex: 0 0 auto;
@@ -1983,28 +1983,6 @@ body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='
             width: 100%;
             height: auto
         }
-    }
-    
-    #top-home .main {
-        width: 82%;
-        -webkit-flex: 0 0 82%;
-        flex: 0 0 82%;
-        max-width: 1590px;
-        height: calc(100vh - 80px);
-        background-image: url(../images/background-top.png);
-        background-repeat: repeat;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        position: relative;
     }
     
     .img-bg-topo {
