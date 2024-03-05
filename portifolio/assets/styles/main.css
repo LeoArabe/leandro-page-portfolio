@@ -26,6 +26,40 @@ header {
         background: white;
 }
 
+header #logo-menu {
+        width: auto;
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        position: relative;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: none;
+        z-index: 2;
+    }
+
+header #menu-top {
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+        position: relative;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 77px;
+    }
+
 #menu-top .item-menu {
         -webkit-flex: 0 0 auto;
         flex: 0 0 auto;
