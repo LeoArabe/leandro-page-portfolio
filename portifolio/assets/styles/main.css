@@ -260,7 +260,7 @@ header {
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center;
+        align-items: flex-end;
         position: relative;
     }
 
@@ -356,24 +356,6 @@ header #menu-top {
 
 #menu-top .item-menu:hover {
         color: #FF4E00
-}
-
-#top-home {
-        width: 100%;
-        position: relative;
-        height: 100vh;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-align-items: flex-end;
-        -webkit-box-align: flex-end;
-        -ms-flex-align: flex-end;
-        align-items: flex-end;
-        z-index: 2
 }
 
 header .menu-icon {
@@ -1948,24 +1930,6 @@ body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='
         color: #0c4f02
     }
     
-    #top-home {
-        width: 100%;
-        position: relative;
-        height: 100vh;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-align-items: flex-end;
-        -webkit-box-align: flex-end;
-        -ms-flex-align: flex-end;
-        align-items: flex-end;
-        z-index: 2
-    }
-    
     #top-home #logo-top {
         z-index: 3
     }
@@ -1987,7 +1951,7 @@ body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='
     
     .img-bg-topo {
         position: absolute;
-        width: 100%;
+        width: 50em;
         height: 100%;
         display: block;
         top: 0;
