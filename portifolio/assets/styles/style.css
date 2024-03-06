@@ -1,10 +1,41 @@
-body, html {
-    height: 100%;
-    margin: 0;
+@media only screen and (max-width: 800px){
+    #agenda .main {
+    -webkit-flex-flow: column;
+    -moz-flex-flow: column;
+    -ms-flex-flow: column;
+    -o-flex-flow: column;
+    flex-flow: column;
+    padding: 50vh 15px 40px 15px;
+    width: 82%;
+    -webkit-flex: 0 0 90%;
+    flex: 0 0 90%;
 }
-.container {
+}
+
+
+#agenda .main {
+    position: relative;
+    width: 82%;
+    -webkit-flex: 0 0 82%;
+    flex: 0 0 82%;
+    max-width: 1746px;
+    height: auto;
+    box-sizing: border-box;
+    background-image: url(../images/bg-roxo.png);
+    background-repeat: repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
     display: flex;
-    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    height: 100%;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -o-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 50vh 30px 40px 30px;
 }
