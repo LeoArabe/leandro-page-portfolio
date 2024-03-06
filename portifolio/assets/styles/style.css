@@ -1,5 +1,5 @@
 @media only screen and (max-width: 800px){
-    #agenda .main {
+    #projetos .main {
     -webkit-flex-flow: column;
     -moz-flex-flow: column;
     -ms-flex-flow: column;
@@ -13,7 +13,7 @@
 }
 
 
-#agenda .main {
+#projetos .main {
     position: relative;
     width: 82%;
     -webkit-flex: 0 0 82%;
