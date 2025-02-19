@@ -23,7 +23,7 @@
         function joinGame() {
             const name = document.getElementById('player_name').value;
             if (name) {
-                fetch('http://www.velhasuprema.kinghost.net/login/', { // Substitua pela URL correta da sua API
+                fetch('http://www.velhasuprema.kinghost.net:21041', { // Substitua pela URL correta da sua API
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
