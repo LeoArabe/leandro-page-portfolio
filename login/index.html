@@ -30,7 +30,10 @@
                     },
                     body: JSON.stringify({ name: name }),
                 })
-                    .then(response => response.text())
+                    .then(response => {
+                        response.text();
+                        console.log(response.text());
+                    } )
                     .then(data => {
                         console.log('Sucesso:', data);
                         window.location.href = 'http://www.velhasuprema.kinghost.net:21041'; // Redireciona ap�s o sucesso
