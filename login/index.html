@@ -23,7 +23,7 @@
         function joinGame() {
             const name = document.getElementById('player_name').value;
             if (name) {
-                fetch('http://www.velhasuprema.kinghost.net:21128/joinGame', { // Substitua pela URL correta da sua API
+                fetch('http://www.velhasuprema.kinghost.net/login/', { // Substitua pela URL correta da sua API
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -33,7 +33,7 @@
                     .then(response => response.text())
                     .then(data => {
                         console.log('Sucesso:', data);
-                        window.location.href = 'http://www.velhasuprema.kinghost.net:21128'; // Redireciona ap�s o sucesso
+                        window.location.href = 'http://www.velhasuprema.kinghost.net:21041'; // Redireciona ap�s o sucesso
                     })
                     .catch((error) => {
                         console.error('Erro:', error);
